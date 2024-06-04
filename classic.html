@@ -1,61 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Jeric | Software Engineer</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #c0c0c0;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .window {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>Ryan Jeric</h1>
         <p>Software Engineer</p>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! My name is Ryan Jeric, and I'm a Software Engineer. I love experimenting with code, teamwork, and challenging opportunities. I have a diverse set of skills, ranging from design, to HTML, CSS, JavaScript, all the way to Python. I love writing clean and structured code. Love it when my code is properly formatted and indented. I have great passion for development and am a collaborative team player with the ability to swiftly adapt to diverse technologies, frameworks, and methodologies to meet the unique demands of each project.</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python / Flask / Django</li>
-            <li>JavaScript ES6</li>
-            <li>NodeJS</li>
-            <li>AngularJS  /React.js /NextJS / TypeScript / JQuery</li>
-            <li>HTML/CSS</li>
-            <li>Shopify</li>
-            <li>BigCommerce</li>
-            <li>AWS</li>
-        </ul>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Full Stack Developer</h3>
-            <p>Moustache Republic | Full-time | Feb 2022 - Present | WFH - Philippines</p>
-            <p>Shopify | BigCommerce | JavaScript | ReactJS | Python Flask | AWS</p>
+    <div class="window" id="about">
+        <div class="title-bar">
+            <div class="title-bar-text">About Me</div>
         </div>
-        
-        <div class="job">
-            <h3>Software Engineering Team Lead</h3>
-            <p>Accenture | Full-time | May 2020 - Jan 2022 | WFH - Philippines</p>
-            <p>Salesforce | Angular | Python | AWS | Ionic</p>
+        <div class="window-body">
+            <p>Hello! My name is Ryan Jeric, and I'm a Software Engineer. I love experimenting with code, teamwork, and
+                challenging opportunities. I have a diverse set of skills, ranging from design, to HTML, CSS,
+                JavaScript, all the way to Python. I love writing clean and structured code. Love it when my code is
+                properly formatted and indented. I have great passion for development and am a collaborative team player
+                with the ability to swiftly adapt to diverse technologies, frameworks, and methodologies to meet the
+                unique demands of each project.</p>
         </div>
-        <div class="job">
-            <h3>Senior Software Engineer</h3>
-            <p>MEDISOURCE HEALTHCARE SOLUTIONS, INC | May 2015 - Feb 2020 | Urdaneta, Pangasinan, Philippines</p>
+    </div>
+    <div class="window" id="skills">
+        <div class="title-bar">
+            <div class="title-bar-text">Skills</div>
         </div>
-    </section>
-    <section id="socials">
-        <h2>Social Links</h2>
-        <ul>
-            <li><a href="https://github.com/ryanjeric">GitHub</a></li>
-            <li><a href="https://stackoverflow.com/users/4195330/ryan-jeric">Stack Overflow</a></li>
-            <li><a href="https://www.facebook.com/RyAnJeRiC">Facebook</a></li>
-        </ul>
-    </section>
+        <div class="window-body">
+            <ul>
+                <li>Python (Programming Language) / Flask / Django</li>
+                <li>JavaScript ES6</li>
+                <li>AngularJS</li>
+                <li>React.js/NextJS</li>
+                <li>Cascading Style Sheets (CSS) / HTML</li>
+                <li>Shopify</li>
+                <li>BigCommerce</li>
+                <li>AWS</li>
+                <li>TypeScript</li>
+                <li>JQuery</li>
+            </ul>
+        </div>
+    </div>
+    <div class="window" id="experience">
+        <div class="title-bar">
+            <div class="title-bar-text">Experience</div>
+        </div>
+        <div class="window-body">
+            <div class="job">
+                <h3>Full Stack Developer</h3>
+                <p>Moustache Republic | Full-time | Feb 2022 - Present | WFH - Philippines</p>
+                <p>Shopify | BigCommerce | JavaScript | ReactJS | Python Flask | AWS</p>
+            </div>
+            <div class="job">
+                <h3>Software Engineering Team Lead</h3>
+                <p>Accenture | Full-time | May 2020 - Jan 2022 | WFH - Philippines</p>
+                <p>Salesforce | Angular | Python | AWS | Ionic</p>
+            </div>
+            <div class="job">
+                <h3>Senior Software Engineer</h3>
+                <p>MEDISOURCE HEALTHCARE SOLUTIONS, INC | May 2015 - Feb 2020 | Urdaneta, Pangasinan, Philippines</p>
+            </div>
+        </div>
+    </div>
+    <div class="window" id="socials">
+        <div class="title-bar">
+            <div class="title-bar-text">Social Links</div>
+        </div>
+        <div class="window-body">
+            <ul>
+                <li><a href="https://github.com/ryanjeric">GitHub</a></li>
+                <li><a href="https://stackoverflow.com/users/4195330/ryan-jeric">Stack Overflow</a></li>
+                <li><a href="https://www.facebook.com/RyAnJeRiC">Facebook</a></li>
+            </ul>
+        </div>
+    </div>
     <footer>
         <p>&copy; 2024 Ryan Jeric</p>
     </footer>
 </body>
+
 </html>
